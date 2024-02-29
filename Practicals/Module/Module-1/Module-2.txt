@@ -1,0 +1,73 @@
+1) What are the benefits of using CSS?
+ANS) CSS enables precise control over webpage layout, typography, colors, and spacing, enhancing visual appeal and readability. Its flexible nature facilitates responsiveness, ensuring seamless adaptation to diverse devices and screen sizes for optimal user interaction.
+
+
+2) What are the disadvantages of CSS?
+ANS) CSS can pose challenges in cross-browser compatibility, global scope issues, and complexity in achieving intricate layouts. Managing performance impact and debugging inefficiencies can also be problematic, along with the absence of native variable support in older versions.
+
+3) What is the difference between CSS2 and CSS3?
+ANS) CSS3 introduces new features like animations, transitions, and flexible box layouts, offering more advanced styling capabilities compared to CSS2. Additionally, CSS3 provides better support for responsive web design and compatibility with modern browsers, enhancing the overall user experience.
+
+4) Name a few CSS style components
+ANS) <h1> to <h6>, <p>, <a>, <span>, <em>, <strong>, and <blockquote> 
+<div>, <section>, <article>, <nav>, <header>, <footer>, <aside>, and <main>.
+
+5) What do you understand by CSS opacity?
+ANS) It allows you to make elements partially transparent, ranging from fully opaque (opacity: 1) to fully transparent (opacity: 0).
+
+6) How can the background color of an element be changed?
+ANS)<style>
+        #myDiv {
+            background-color: blue;
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+    <div id="myDiv"></div>
+
+7) How can image repetition of the backup be controlled?
+ANS) background-repeat: no-repeat; line ensures that the background image is not repeated
+background-repeat: repeat-x; for horizontal repetition only 
+background-repeat: repeat-y; for vertical repetition only
+background-repeat: repeat; for both horizontal and vertical repetition.
+
+8) What is the use of the background-position property?
+ANS) The background-position property is commonly used to create visually appealing layouts, align background images with text or other elements, or achieve specific design effects on web pages.
+
+9) Which property controls the image scroll in the background?
+ANS) background-attachment
+
+10) Why should background and color be used as separate properties?
+ANS) For cleaner code, better readability, and more precise control over the styling of HTML elements in CSS.
+
+11) How to center block elements using CSS1?
+ANS) .center-block {
+    width: 50%; 
+    margin-left: auto; 
+    margin-right: auto;
+    text-align: center;
+}
+
+12) How to maintain the CSS specifications?
+
+13) What are the ways to integrate CSS as a web page?
+ANS) Inline Styles, Internal Stylesheets, External Stylesheets
+
+14) What is embedded style sheets?
+ANS) Embedded style sheets refer to CSS styles that are defined within the <style> element and included directly in the <head> section of an HTML document.
+
+15) What are the external style sheets?
+ANS) External style sheets are CSS files that are created separately from HTML documents and linked to them using the <link> element. 
+
+16) What are the advantages and disadvantages of using external style sheets?
+ANS) Advantages: Ease of Maintenance, Reusability, Consistency
+Disadvantages: Specificity and Overriding, File Management, Dependency
+
+17) What is the meaning of the CSS selector?
+ANS) In CSS, a selector is a pattern that specifies which elements in an HTML document the associated CSS rules should apply to. Selectors target specific HTML elements based on their type, attributes, classes, IDs, or relationships with other elements in the document structure.
+
+18) What are the media types allowed by CSS?
+
+19) What is the rule set?
+ANS) set of rules defined within a style element or an external CSS file that specifies how HTML elements should be styled. These rules consist of selectors and declarations, collectively forming a rule set or a CSS rule.
+ 
