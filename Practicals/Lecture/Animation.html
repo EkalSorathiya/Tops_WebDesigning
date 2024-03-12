@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black
+        }
+        .main{
+            height: 300px;
+            width: 300px;
+            background-color: red;
+            animation-name: abc;
+            animation-duration: 5s;
+        }
+
+        .main1{
+            height: 300px;
+            width: 300px;
+            background-color: red;
+            animation-name: abc1;
+            animation-duration: 5s;
+        }
+
+        .main2{
+            height: 300px;
+            width: 300px;
+            position: relative;
+            background-color: red;
+            animation-name: abc2;
+            animation-duration: 5s;
+        }
+
+
+        @keyframes abc{
+            from{
+                background-color: blue;
+            }
+            to{
+                background-color: aqua;
+            }
+        }
+
+        @keyframes abc2{
+            0%{
+                background-color: red;
+                left: 0px;
+                top: 0px;
+            }
+            25%{
+                background-color: aqua;
+                left: 250px;
+                top: 0px;
+            }
+            50%{
+                background-color: yellow;
+                left: 250px;
+                top: 250px;
+            }
+            75%{
+                background-color: green;
+                left: 0px;
+                top: 250px;
+            }
+            100%{
+                background-color: orange;
+                left: 0px;
+                top: 0px;
+            }
+        }
+
+        @keyframes abc1{
+            0%{
+                background-color: red;
+            }
+            25%{
+                background-color: aqua;
+            }
+            50%{
+                background-color: yellow;
+            }
+            75%{
+                background-color: green;
+            }
+            100%{
+                background-color: orange;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main2"></div>
+    <div class="main"></div>
+    <div class="main1"></div>
+</body>
+</html>
