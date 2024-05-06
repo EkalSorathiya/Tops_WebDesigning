@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <style>
+        #div-1{
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            /* display: none; */
+        }
+        #div-2{
+            height: 200px;
+            width: 200px;
+            background-color: black;
+            /* display: none; */
+        }
+        #div-3{
+            height: 200px;
+            width: 200px;
+            background-color: aqua;
+            /* display: none; */
+        }
+
+    </style>
+</head>
+<body>
+    <div id="div-1"></div>
+    <div id="div-2"></div>
+    <div id="div-3"></div>
+    <button id="one">Fade</button>
+
+    
+</body>
+<script>
+    $(document).ready(function () {
+        $("#one").click(function () {
+            $("#div-1").fadeToggle() 
+            $("#div-2").fadeToggle("slow") 
+            $("#div-3").fadeToggle(3000) 
+        })
+    })
+
+</script>
+</html>
